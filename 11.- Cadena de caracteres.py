@@ -15,5 +15,13 @@ print(nombre)
 nombre = nombre.strip()
 print(nombre)
 
+# nombre = nombre.replace("e", "\n")
 nombre = nombre.replace("e", "")
 print(nombre)
+
+print( nombre[11] )
+
+largo_cadena = len(nombre)
+print(largo_cadena)
+
+print( len("Esto es una cadena de textos") )

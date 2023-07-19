@@ -19,11 +19,16 @@ def palindromo(palabra):
     else:
         return False
 
+def main():
+    palabra = input("Ingrese palabra: ")
+    resultado = palindromo(palabra)
 
-palabra = input("Ingrese palabra: ")
-resultado = palindromo(palabra)
+    if resultado:
+        print("Es palindromo")
+    else:
+        print("No es palindromo")
 
-if resultado:
-    print("Es palindromo")
-else:
-    print("No es palindromo")
+# Punto de entrada
+# Es una buena practica
+if __name__ == '__main__':
+    main()
