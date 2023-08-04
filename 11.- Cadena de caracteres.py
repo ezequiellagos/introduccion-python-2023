@@ -1,6 +1,6 @@
 # Cadena de caracteres
 
-nombre = "ezeQUIEL LAgos"
+nombre = "ezeQUIEL lAgos"
 
 nombre = nombre.upper()
 print(nombre)
@@ -9,6 +9,9 @@ nombre = nombre.lower()
 print(nombre)
 
 nombre = nombre.capitalize()
+print(nombre)
+
+nombre = nombre.title()
 print(nombre)
 
 # Quita los espacios en blanco al final de la cadena de texto

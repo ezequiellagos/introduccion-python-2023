@@ -30,5 +30,5 @@ def main():
 
 # Punto de entrada
 # Es una buena practica
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
