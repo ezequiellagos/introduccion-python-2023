@@ -42,3 +42,12 @@ print(lista)
 # Cuantas veces se repite un elementos
 lista3 = [1,1,2,3,4,5,5,5,6]
 print( lista3.count(5) )
+
+# Clase del 18-08-2023
+
+nueva_lista_1 = [1,2,3]
+nueva_lista_2 = [4,5,6]
+print( type(nueva_lista_1) )
+
+print(nueva_lista_1 + nueva_lista_2)
+print(3 * nueva_lista_1)
